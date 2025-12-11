@@ -3,6 +3,8 @@
 A Python-based simulation environment for studying **2D planar Vertical Takeoff and Landing (VTOL)** dynamics, **nonlinear state estimation**, and **control design**.  
 This project supports **PID control**, a **nonlinear observer (NLO)**, and an **Extended Kalman Filter (EKF)**, with tools for visualization and experimentation.
 
+Simply instally numpy and matplotlib and run 'python3 main.py' to run the simulation!
+
 ---
 
 ## 📌 Features
@@ -61,5 +63,4 @@ Supports two observer frameworks:
 ├── dataPlotter.py         # Time-series plotting utilities
 ├── signalGenerator.py     # Reference trajectory generation
 ├── main.py                # Main simulation loop
-├── utils/                 # Optional helpers (Jacobians, noise models, etc.)
 └── README.md              # This file
